@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.notes-list, .note-editor {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.notes-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notes-list li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+
+.notes-list li:hover {
+    background-color: #f1f1f1;
+}
+
+.note-editor input, .note-editor textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
